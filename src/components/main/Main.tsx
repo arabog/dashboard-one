@@ -51,7 +51,7 @@ const Main = () => {
                 <small>2% less purchase</small>
               </div>
 
-              <div className="card-chart">
+              <div className="card-chart danger">
                 <span className="las la-chart-line"></span>
               </div>
             </div>
@@ -70,7 +70,7 @@ const Main = () => {
                 <small>2% less visitors</small>
               </div>
 
-              <div className="card-chart">
+              <div className="card-chart success">
                 <span className="las la-chart-line"></span>
               </div>
             </div>
@@ -89,12 +89,12 @@ const Main = () => {
                 <small>10% less refund</small>
               </div>
 
-              <div className="card-chart">
+              <div className="card-chart yellow">
                 <span className="las la-chart-line"></span>
               </div>
             </div>
           </div>
-
+{/* 
           <div className="card-single">
             <div className="card-flex">
               <div className="card-info">
@@ -112,7 +112,7 @@ const Main = () => {
                 <span className="las la-chart-line"></span>
               </div>
             </div>
-          </div>
+          </div> */}
 
         </div>
 
