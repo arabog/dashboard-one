@@ -7,6 +7,7 @@ import SidebarMenu from './SidebarMenu'
 const Sidebar = () => {
   return (
     <div className='sidebar'>
+      
       <Brand />
       <MainSidebar />
       {/* <SidebarMain /> */}

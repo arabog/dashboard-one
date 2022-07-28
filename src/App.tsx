@@ -5,8 +5,12 @@ import Main from './components/main/Main';
 function App() {
   return (
     <div className="App">
-     <Sidebar />
-     <Main />
+      <input type="checkbox" name='' id='sidebar-toggle' />
+
+      <Sidebar />
+      <Main />
+
+      
     </div>
   );
 }

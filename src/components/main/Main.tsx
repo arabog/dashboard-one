@@ -5,7 +5,7 @@ const Main = () => {
     <div className='main-content'>
       <header>
         <div className="menu-toggle">
-          <label htmlFor="">
+          <label htmlFor="sidebar-toggle">
             <span className="las la-bars"></span>
           </label>
         </div>
@@ -18,6 +18,7 @@ const Main = () => {
       </header>
 
       <main>
+        <label htmlFor="sidebar-toggle" className='body-label'></label>
         <div className="page-header">
           <div>
             <h1>Ananlytics Dashboard</h1>
@@ -94,29 +95,191 @@ const Main = () => {
               </div>
             </div>
           </div>
-{/* 
-          <div className="card-single">
-            <div className="card-flex">
-              <div className="card-info">
-                <div className="card-head">
-                  <span>Sales</span>
-                  <small>Number of sales</small>
-                </div>
-
-                <h2>$717,663</h2>
-
-                <small>20% more sales</small>
-              </div>
-
-              <div className="card-chart">
-                <span className="las la-chart-line"></span>
-              </div>
-            </div>
-          </div> */}
-
         </div>
 
+          
+        <div className="jobs-grid">
+          <div className="analytics-card">
+            <div className="analytics-head">
+              <h2>Actions needed</h2>
+              <span className="las la-ellipsis-h"></span>
+            </div>
 
+            <div className="analytics-chart">
+              <div className="chart-circle">
+                <h1>74%</h1>
+              </div>
+
+              <div className="analytics-note">
+                <small>Note: Current sprint requires stakeholders meeting to reach conclusion</small>
+              </div>
+            </div>
+
+            <div className="analytics-btn">
+              <button>Generate report</button>
+            </div>
+          </div>
+
+          <div className="jobs">
+            <h2>Jobs <small>See all jobs <span className="las la-arrow-right"></span>
+              </small>
+            </h2>
+
+            <div className="table-responsive">
+              <table width="100%">
+                <tbody>
+                  <tr>
+                    <td>
+                      <div>
+                        <span className="indicator"></span>
+                      </div>
+                    </td>
+
+                    <td>
+                      <div>
+                        Customer experience designer
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        Design
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        Nigeria Ng.
+                      </div>
+                    </td>
+
+                    <td>
+                      <div>
+                        Posted 6 days ago
+                      </div>
+                    </td>
+
+                    <td>
+                      <div>
+                        <button>8 applicants</button>
+                      </div>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <div>
+                        <span className="indicator"></span>
+                      </div>
+                    </td>
+
+                    <td>
+                      <div>
+                        Software Development
+                      </div>
+                    </td>
+
+                    <td>
+                      <div>
+                        Developer
+                      </div>
+                    </td>
+
+                    <td>
+                      <div>
+                        Nigeria Ng.
+                      </div>
+                    </td>
+                    
+                    <td>
+                      <div>
+                        Posted 6 days ago
+                      </div>
+                    </td>
+
+                    <td>
+                      <div>
+                        <button>8 applicants</button>
+                      </div>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <div>
+                        <span className="indicator"></span>
+                      </div>
+                    </td>
+
+                    <td>
+                      <div>
+                        Customer experience designer
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        Design
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        Nigeria Ng.
+                      </div>
+                    </td>
+
+                    <td>
+                      <div>
+                        Posted 6 days ago
+                      </div>
+                    </td>
+
+                    <td>
+                      <div>
+                        <button>8 applicants</button>
+                      </div>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <div>
+                        <span className="indicator"></span>
+                      </div>
+                    </td>
+
+                    <td>
+                      <div>
+                        Software Development
+                      </div>
+                    </td>
+
+                    <td>
+                      <div>
+                        Developer
+                      </div>
+                    </td>
+
+                    <td>
+                      <div>
+                        Nigeria Ng.
+                      </div>
+                    </td>
+                    
+                    <td>
+                      <div>
+                        Posted 6 days ago
+                      </div>
+                    </td>
+
+                    <td>
+                      <div>
+                        <button>8 applicants</button>
+                      </div>
+                    </td>
+                  </tr>                
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
       </main>
     </div>
   )
