@@ -14,12 +14,15 @@
 }
 
 body {
-  width: 100%;
-  overflow-x: none;
+  overflow-x: hidden;
 }
+
 
 #sidebar-toggle {
   display: none;
+}
+#sidebar-toggle:checked ~ .body-label {
+  left: -100%;
 }
 
 .body-label {
@@ -27,9 +30,10 @@ body {
   height: 100%;
   width: calc(100% - 280px);
   z-index: 30;
-
-  top: -100%;
+  
   right: 0;
+  top: 0;
+  
 }
 
 #sidebar-toggle:checked ~ .sidebar {
@@ -39,7 +43,6 @@ body {
 
 #sidebar-toggle:checked ~ .main-content header {
   left: 0;
-  /* width: calc(100% - 0) !important; */
   width: 100%;
   right: 0;
 }
@@ -50,8 +53,8 @@ body {
 }
 
 .sidebar {
-  width: 280px;
   position: fixed;
+  width: 280px;
   left: 0;
   top: 0;
   height: 100%;
@@ -84,11 +87,8 @@ body {
 }
 
 .sidebar-user img {
-  /* width: 100px; */
   margin: auto;
   border-radius: 50%;
-  /* height: 100px; */
-  /* object-fit: contain; */
   border-left: 2px solid transparent;
   border-right: 2px solid #efefef;
   border-bottom: 2px solid #efefef;
@@ -195,7 +195,6 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* text-align: center; */
 }
 
 .header-actions button {
@@ -375,10 +374,8 @@ table button {
   border-radius: 3px;
 }
 
-
 .table-responsive {
   overflow: auto;
-  border: 2px solid red;
 }
 
 
@@ -402,14 +399,9 @@ table button {
     left: 0;
   }  
 
-  #sidebar-toggle:checked ~ .body-label {
-    right: 0;
-  }
-
   .cards {
     grid-template-columns: repeat(2, 1fr);
   }
-
 
 }
 

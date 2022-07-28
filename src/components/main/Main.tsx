@@ -18,7 +18,7 @@ const Main = () => {
       </header>
 
       <main>
-        <label htmlFor="sidebar-toggle" className='body-label'></label>
+        
         <div className="page-header">
           <div>
             <h1>Ananlytics Dashboard</h1>
@@ -221,7 +221,7 @@ const Main = () => {
                     </td>
                     <td>
                       <div>
-                        Nigeria Ng.
+                        United States of America USA.
                       </div>
                     </td>
 
@@ -281,7 +281,11 @@ const Main = () => {
           </div>
         </div>
       </main>
+
+      <label htmlFor="sidebar-toggle" className='body-label'></label>
     </div>
+
+
   )
 }
 

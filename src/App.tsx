@@ -8,9 +8,7 @@ function App() {
       <input type="checkbox" name='' id='sidebar-toggle' />
 
       <Sidebar />
-      <Main />
-
-      
+      <Main />      
     </div>
   );
 }
